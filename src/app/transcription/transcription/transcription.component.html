@@ -1,0 +1,11 @@
+<div class="textFieldClass">
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Текст на эстонском</mat-label>
+    <textarea matInput  #transactionInput></textarea>
+  </mat-form-field>
+  <button mat-button (click)="makeTranscription()">Сделать транскрипцию</button>
+</div>
+
+<div>
+  <p>{{result}}</p>
+</div>
